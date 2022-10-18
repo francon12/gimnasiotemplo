@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500&display=swap");
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #242422;
+    background-attachment: fixed;
+    overflow-x: hidden; 
+}
+.img{
+    width: 5vw;
+    margin-left: 20px;
+}
+#nav{
+    background-color: #2d2e4077;
+    height: 10vh;
+    opacity: .6;
+}
+#nave{
+        color: #e8ba1e;
+        font-size: 15px;
+        margin-right: 15px;
+    }
+.position{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: black;
+    }
+.tp{
+    max-height: 85rem;
+    width: 100%;
+    opacity: .4;
+}
+.abs{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------- main ---------------*/
+main{
+    background:#6c6a6b url(img/servi.png) ;
+}
+    main h1{
+        color: #e8ba1e;
+        font-size: 40px;
+        font-family: 'Joan Family', sans-serif;
+        margin-top: 150px;
+    }
+        main h2{
+            color: white;
+            font-size: 25px;
+            margin-top: 15px;
+        }
+            main p{
+                color: #6c6a6b;
+                font-size: 18px;
+                width: 80%;
+                margin-top: 15px;
+                margin-bottom: 30px;
+            }
+
+.servi{
+    width: 100%;
+    
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    margin-left: 70px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+    .info div{
+        width: 40%;
+        height: 15rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+     .info div h2 {
+        font-family: 'Joan Family', sans-serif;
+        width: 90%;
+     }
+        .info div p{
+            font-size: 20px;
+            color: #6c6a6b;
+            margin-top: 10px;
+        }
+.reloj{
+    width: 10%;
+}
+.vestuario{
+    width: 15%;
+}
+
+.nosotros{
+    background:#3f3d3ef3 url(img/nosotros.webp);
+    width: 100%;
+    height: 80rem;
+    
+}
+.texto{
+    color: #e8ba1e;
+    font-size: 40px;
+    font-family: 'Joan Family', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+}
+.car{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gym{
+    color: #6c6a6b;
+    font-size: 30px;
+}
+.horarios{
+    background:#3f3d3ef3 url(img/nosotros.png);
+}
+.calendario{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contac{
+    color: #e8ba1e;
+    font-size: 15px;
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.contacto{
+    margin-bottom: 20px;
+}
+.titulos{
+    margin-right: 25px;
+}
+.color{
+    background-color: #6c6a6b;
+    color: #e8ba1e;
+    border-color: #2e2e2c;
+    border-style: solid;
+    border-width: 10px;
+    width: 40rem;
+}
+#bton{
+    background-color: #e8ba1e;
+    text-align: left;
+    color: #2e2e2c;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+/* zeus */
+.tamaño{
+    background-color: #242422;
+}
+.foto{
+    width: 20vw;
+    height: auto;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #e8ba1e;
+}
+.bor{
+    color: #242422;
+    background-color: #e8ba1e;
+}
+.datos{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: #6c6a6b;
+    margin-bottom: 15px;
+}
+.dat{
+    border-color: #e8ba1e;
+    border-width: 4px;
+    border-style: solid;
+}

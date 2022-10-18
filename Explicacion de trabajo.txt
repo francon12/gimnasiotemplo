@@ -1,0 +1,3 @@
+Se esta realizando una pagina de un gimnasio en el cual tambien tiene una marca llamada Zeus Machine en el que se dedida a la venta de maquinarias.
+
+En el trabajo se hizo lo que seria la parte de ventas donde estan algunos de los productos para comprar.
